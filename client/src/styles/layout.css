@@ -1,0 +1,21 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* SIDEBAR takes real width */
+.sidebar {
+  flex-shrink: 0;
+}
+
+/* MAIN auto adjusts */
+.main {
+  flex: 1;
+  min-height: 100vh;
+  background: #f8fafc;
+  transition: 0.3s ease;
+}
+
+.content {
+  padding: 20px;
+}
